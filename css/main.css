@@ -1,0 +1,212 @@
+/***** Base Styles *****/
+body {
+  font-family: 'Amita', cursive;
+}
+
+#location,
+#selection,
+#contact {
+  height: 600px;
+}
+
+/***** Grid *****/
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** Header *****/
+header {
+  background: url("../images/mini-turtle.png");
+  background-color: #fcfd63;
+  background-repeat: no-repeat;
+  height: 700px
+}
+
+header h1 {
+  color: #d51d3c;
+  font-family: 'Charmonman', cursive;
+  font-size: 80px;
+  font-weight: 700;
+  height: 100px;
+  text-transform: capitalize;
+  width: 900px;
+}
+
+nav {
+  float: right;
+  padding: 25px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #6e0594;
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 75px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header h2 {
+  clear: both;
+  color: #6e0594;
+  font-family: 'Amita', cursive;
+  font-size: 64px;
+  line-height: 80px;
+  padding: 20px 0px 20px 25px;
+  width: 1000px;
+}
+
+header h2 span {
+  color: #d51d3c;
+  font-family: 'Amita', cursive;
+  font-size: 90px;
+}
+
+/***** Location *****/
+#section .location {}
+
+#location {
+  background-color: #00a8b5;
+  background-size: cover;
+  padding-top: 70px;
+  height: 700px;
+  width: 1350px;
+}
+
+#location .full-width {}
+
+#location h2 {
+  font-family: 'Gabriela', serif;
+  font-size: 30px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+#location a {
+  text-decoration: none;
+}
+
+#location p {
+  color: 'inherit';
+  font-size: 36px;
+  font-weight: normal;
+  height: 500px;
+  word-spacing: 13px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+#location .logo {
+  display: block;
+  width: 400px;
+  height: 400px;
+  padding-left: 80px;
+}
+
+/***** Selection *****/
+#selection {
+  background-color: #f06f32;
+  text-align: center;
+  height: 700px;
+  width: 1350px;
+}
+
+#selection .full-width {
+  padding: 20px 0 0 115px;
+}
+
+#selection img {
+  padding-bottom: 10px;
+  padding-right: 45px;
+}
+
+#selection h3 {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0 auto;
+  padding-right: 40px;
+  width: 190px;
+}
+
+#selection p {
+  font-family: 'Gabriela', serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  margin-right: 55px;
+  padding: 0 15px;
+}
+
+#selection p span {
+  color: #6e0594;
+}
+
+/***** Contact *****/
+#contact {
+  background-color: #00a8b5;
+  background-size: cover;
+  height: 700px;
+  width: 1350px;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact img #contact-img {
+  width: 500px;
+  height: 575px;
+}
+
+#contact h2, #contact #email-header,
+#contact ul {
+  padding-left: 115px;
+}
+
+#contact h2 {
+  color: #6e0594;
+  font-family: 'Amita', cursive;
+  font-size: 38px;
+  line-height: 50px;
+  padding-bottom: 25px;
+}
+
+#contact #email-header {
+  color: #2b2b2b;
+  font-family: 'Charmonman', cursive;
+  font-size: 28px;
+  line-height: 50px;
+  margin: -30px 0 5px 0;
+}
+
+#contact a {
+  color: #6e0594;
+  font-weight: normal;
+  font-size: 28px;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+.half-width {
+  font-family: 'Amita', cursive;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+}
